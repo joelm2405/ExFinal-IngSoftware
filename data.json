@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+            "alias": "lgomez",
+            "nombre": "Laura G\u00f3mez",
+            "email": "lgomez@utec.edu.pe",
+            "stats": {
+                "total": 0,
+                "completed": 0,
+                "missing": 0,
+                "not_marked": 0,
+                "rejected": 0
+            }
+        },
+        {
+            "alias": "jperez",
+            "nombre": "Juan P\u00e9rez",
+            "email": "jperez@utec.edu.pe",
+            "stats": {
+                "total": 0,
+                "completed": 0,
+                "missing": 0,
+                "not_marked": 0,
+                "rejected": 0
+            }
+        }
+    ],
+    "rides": [
+        {
+            "id": 1,
+            "driver": "jperez",
+            "rideDateAndTime": "2025/07/15 22:00",
+            "finalAddress": "Av Javier Prado 456, San Borja",
+            "capacity": 3,
+            "status": "inprogress",
+            "participants": []
+        }
+    ],
+    "ride_participants": [
+        {
+            "ride_id": 1,
+            "alias": "lgomez",
+            "destination": "Av Arambur\u00fa 245, Surquillo",
+            "occupiedSpaces": 1,
+            "confirmation": "rejected",
+            "status": "rejected"
+        }
+    ]
+}
